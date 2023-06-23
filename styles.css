@@ -1,0 +1,113 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+#container{
+ font-family: 'Fraunces', serif;
+ font-family: 'Roboto', sans-serif;
+ font-size: 17px;
+ text-align: center;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url(./images/pattern-background-desktop.svg);
+ background-repeat: no-repeat;
+ background-color: hsl(225, 100%, 94%);
+}
+
+.image-container{
+ width: 400px;
+ height: 89vh;
+ border-radius: 20px;
+ background-color: white;
+}
+
+img{
+ border-radius: 20px 20px 0 0;
+ width: 400px;
+}
+
+h1{
+ margin-top: 40px;
+ margin-bottom: 20px;
+}
+
+a{
+ text-decoration: none;
+}
+
+.change{
+ color: hsl(247, 95%, 71%);
+}
+
+.order{
+ font-weight: bolder;
+}
+
+.price{
+ margin-top: 5px;
+ color: rgb(130, 130, 130);
+}
+
+.text{
+ margin-left: 40px;
+ margin-right: 40px;
+ margin-bottom: 20px;
+ line-height: 1.5;
+ color: rgb(130, 130, 130);
+}
+
+.plan{
+ display: flex;
+}
+
+.annual{
+ text-align: left;
+ margin-left: 5px;
+}
+
+.span{
+ border-radius: 10px;
+ margin: 30px auto 30px auto;
+ width: 300px;
+ padding: 15px;
+ background-color: hsl(225, 100%, 98%);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.musicIcon{
+ width: 50px;
+ margin-right: 10px;
+}
+
+button{
+ display: block;
+ margin: 30px auto 30px auto;
+ height: 50px;
+ width: 300px;
+ border: 0px;
+ border-radius: 10px;
+ background-color: hsl(247, 95%, 71%);
+ box-shadow: 0px 18px 35px -3px rgb(181, 171, 242);
+ color: white;
+}
+
+button:hover{
+ transform: scale(1.1,1.1);
+}
+
+.attribution {
+ font-size: 16px;
+ font-weight: bold;
+ text-align: center;
+}
+
+.attribution a {
+ color: hsl(228, 45%, 44%);
+}
